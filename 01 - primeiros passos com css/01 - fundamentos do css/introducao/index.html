@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formas de Declaração CSS</title>
+    <style>
+        h3{
+            color: green;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <p><h1>Proprieadades e Valores</h1>
@@ -13,13 +19,19 @@
         <h1>Formas de declarar o CSS</h1>
 
         <b>CSS inline: </b> adicionamos o código css utilizando o atributo style dentro das tags HTML, elemento por elemento.
-            <code> <pre> style="background-color: red;"</pre> </code>
+        <pre><code> style="background-color: red;" </code></pre>
         o código inline não é recomendável, pois é difícil de manter atualizado sendo necessário atualizar o código em todas as páginas, elemento por elemento
         onde o css está sendo utilizado.
+        <br>
+        <br>
+        <b>CSS interno</b>: código css é adicionado dentro da tag <code> <pre> < head ></pre></code> da página HTML , dentro dela
+        adicionamos outra Tag  chamada style e colocamos o código css dentro dela.
+        <h3>css interno </h3>
 
-        <b>CSS interno: </b>
-
-        <b>CSS externo: </b>
+        <br><br>
+        <b>CSS externo:
+        </b> é criado com um arquivo de extensão .css com todas as regras css que queremos aplicar e esse arquivo é
+        referenciado no HTML da página através da tag link 
     </p>
 
     <h2 style="background-color: red; color: white;">Trilha de CSS</h2>
