@@ -18,21 +18,46 @@
         li {
             background-color: lightgreen;
         }
+
+        #texto-boas-vindas {
+            font-family: 'Lucida Sans';
+        }
+
+        #explicando-seletores {
+            background-color: brown;
+        }
+
+        #texto-fim-da-pagina{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: smaller;
+        }
+
+        .seletores-mais-comuns{
+            color: sandybrown;
+        }
+
+        .texto-maiusculo{
+            text-transform: uppercase;
+        }
+
     </style>
 </head>
 <body>
     <h1>Seletores CSS</h1>
-    <p>no css temos vários tipos de seletores</p>
+    <p id="texto-boas-vindas">no css temos vários tipos de seletores</p>
+    <p id="explicando-seletores">os seletores nos ajudam a implementar o código css na página</p>
     <div>
         <ul>
-            <li><b>seletor por tipo: </b> busca elementos por uma tag html especifica</li>
-            <li><b>seletor por ID (#): </b> busca elementos através do atributo "ID"</li>
-            <li><b>seletor por classe: </b>busca elementos através do atributo "class"</li>
+            <li class="seletores-mais-comuns texto-maiusculo "><b>seletor por tipo: </b> busca elementos por uma tag html específica</li>
+            <li class="seletores-mais-comuns texto-maiusculo"><b>seletor por ID (#): </b> busca elementos através do atríbuto "ID"</li>
+            <li class="seletores-mais-comuns"><b>seletor por classe: </b>busca elementos através do atríbuto "class"</li>
             <li><b>seletor universal (*): </b> seleciona todos os elementos HTML</li>
-            <li><b>seletor de atributo ([ atributo]): </b> seleciona elementos que possuem um atributo especifico no documento html
+            <li><b>seletor de atributo ([ atributo]): </b> seleciona elementos que possuem um atributo específico no documento html
              e consegue também buscar atributos com valor específico.</li>
         </ul>
     </div>
+
+    <p id="texto-fim-da-pagina">todos os elementos dessa página foram modificados utilizando os seletores acima.</p>
     
 </body>
 </html>
