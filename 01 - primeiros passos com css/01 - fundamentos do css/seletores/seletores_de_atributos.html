@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores de atributos</title>
+
+    <style>
+        [title ~= "prime"]{
+            background-color: rgb(5, 158, 38);
+        }
+        [title]{
+            font-style:italic;        
+        }
+        [title="youtube"]{
+            color: red;
+        }
+
+        [title="prime video"]{
+            color:cornflowerblue;
+        }
+
+        [title="deezer"]{
+            color:black;
+        }
+
+        [title="disney plus"]{
+            color: lightblue;
+        }
+
+        [title="Spotify"]{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Seletores de Atributos</h1>
+    <div>
+        <ul>
+            <li><a title="streaming youtube" href="">Youtube</a></li>
+            <li><a title="streaming prime video" href="">Prime Video</a></li>
+            <li><a title="streaming disney plus" href="">Disney Plus</a></li>
+            <li><a title="streaming deezer" href="">Deezer</a></li>
+            <li><a title="streaming Spotify" href="">Spotify</a></li>
+        </ul>
+    </div>
+    
+</body>
+</html>
