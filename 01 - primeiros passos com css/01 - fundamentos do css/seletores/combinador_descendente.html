@@ -5,7 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Combinador descendente</title>
     <style>
+        li{
+            color: red;
+        }
+        li li{
+            color: blue;
+        }
+        #lista-01 li{
+            background-color: blanchedalmond;
+        }
 
+        .fundo-verde li {
+            background: lightgreen;
+        }
+
+        .fundo-azul li {
+            background: lightblue;
+        }
+
+        li {
+            color: red;
+        }
+
+        .fundo-azul #sublista-03 {
+        background-color: rgb(0, 205, 7);
+        }
     </style>
 </head>
 <body>
@@ -31,7 +55,7 @@
                     <li>banana</li>
                 </ul>
             </li>
-            <li class="fundo-vermelho" id="lista-02">
+            <li class="fundo-verde" id="lista-02">
                 <div>item 2</div>
                 <ul>
                     <li>aveia</li>
@@ -40,9 +64,9 @@
             </li>
             <li class="fundo-azul" id="lista-03">
                 <div>item 3</div>
-                <ul>
+                <ul id="sublista-03">
                     <li>yogurte</li>
-                    <li>energetico</li>
+                    <li>energético</li>
                 </ul>
             </li>
         </ul>
