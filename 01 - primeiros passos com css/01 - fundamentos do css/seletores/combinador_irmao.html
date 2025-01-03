@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>combinador irmão</title>
 </head>
+<style>
+    div ~ p {
+        color: tomato;
+    }
+
+    .fundo-verde + p {
+        background-color: lightblue;
+    }
+</style>
 <body>
     <div class="fundo-verde">
         <p>Paragrafo 1 dentro da div</p>
