@@ -13,14 +13,21 @@
             border: 2px solid currentColor;
         }
         #rgb{
-            color: rgb(255,0 ,0);
+            color: rgb(180,0 ,255);
         }
+        #rgba{
+            color: rgba(red, green, blue, alpha)
+        }
+        /**  rgd ( red, green, blue) a combinação dessas tres cores formam todas as outras
+        rgba, o a significa alpha ( canal alpha ) vai definir a opacidade da cor
+        
+        **/
     </style>
 </head>
 <body>
     <h1>Cores no <span>CSS</span></h1>
-    <p>existem várias formas de definirmos cores utilizando o CSS algumas delas são: </p>
-
+    <p>existem várias formas de definirmos cores utilizando o CSS: </p>
+    <p>Cada cor possui 256 tonalidades ( 0 a 255 ) e abaixo estão algumas maneiras que definirmos essas cores:  </p>
     <ul>
         <li id="pre-definidas">Cores pré definidas</li>
         <li id="current-color"> Palavra Chave "currentcolor"</li>
