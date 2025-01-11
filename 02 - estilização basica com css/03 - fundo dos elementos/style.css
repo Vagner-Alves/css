@@ -16,6 +16,6 @@
     width: 300px;
     height: 300px;
     border: 3px solid goldenrod;
-    background-image: repeating-linear-gradient( to top, white 0px 20px, black 20px 40px);
+    background-image: repeating-linear-gradient( to top, palegreen 0px 20px, black 20px 40px);
     
 }
