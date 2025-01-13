@@ -16,3 +16,7 @@ div{
 #cover{
     background-size: cover;
 }
+
+#valor{
+    background-size: 50%;
+}
