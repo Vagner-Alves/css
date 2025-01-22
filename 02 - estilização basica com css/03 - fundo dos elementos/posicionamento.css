@@ -1,0 +1,9 @@
+.exemplo {
+    width: 400px;
+    height: 400px;
+    background-size: 120px;
+    border: orangered solid 2px;
+    background-repeat: no-repeat;
+    background-image: url('01-apple.jpg');
+    background-position: left;
+}
