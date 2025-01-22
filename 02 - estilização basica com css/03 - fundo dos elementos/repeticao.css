@@ -26,3 +26,7 @@ div {
 #repeat-round {
     background-repeat: round;
 }
+
+#no-repeat {
+    background-repeat: no-repeat ;
+}
