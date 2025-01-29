@@ -1,0 +1,12 @@
+div{
+    width: 300px;
+    height: 300px;
+    border: 15px dashed palegoldenrod;
+    background-color: palegreen;
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+    padding: 30px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy-h4H660PDChQzZcAN4VbXTrPBjTcMbEOgNc0ZZchI3-OgSLYUuffhzLYT9bTBzTya9Y&usqp=CAU');
+    background-blend-mode: color-dodge;
+}
