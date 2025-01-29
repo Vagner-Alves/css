@@ -7,6 +7,14 @@ div{
     overflow: auto;
 }
 
-#repeat{
+#fixed{
     background-attachment: fixed;
+}
+
+#scroll {
+    background-attachment: scroll;
+}
+
+#local {
+    background-attachment: local;
 }
