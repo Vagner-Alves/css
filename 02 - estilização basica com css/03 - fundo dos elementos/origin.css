@@ -10,5 +10,18 @@ div {
     background-repeat: no-repeat;
     border: 14px dashed paleturquoise;
     margin: 0 0 30px;
+    padding: 30px;
 
+}
+
+#padding-box {
+    background-origin: padding-box;
+}
+
+#border-box {
+    background-origin: border-box;
+}
+
+#content-box {
+    background-origin: content-box;
 }
