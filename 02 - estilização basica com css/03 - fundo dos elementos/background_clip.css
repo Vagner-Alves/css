@@ -10,3 +10,21 @@ div {
     margin-bottom: 30px;
 }
 
+#padding-box {
+    background-origin: padding-box;
+}
+
+#border-box {
+    background-origin: border-box;
+}
+
+#content-box {
+    background-origin: content-box;
+}
+
+#text {
+    -webkit-background-clip: text;
+    color: transparent;
+    border: 5px solid black;
+    background-clip: text;
+}
