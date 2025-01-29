@@ -1,0 +1,11 @@
+div {
+    width: 300px;
+    height: 300px;
+    border: 15px dashed palegoldenrod;
+    color: white;
+    padding: 30px;
+    font-size: 80px;
+    font-weight: 900;
+    background-color: palevioletred;
+    margin-bottom: 30px;
+}
