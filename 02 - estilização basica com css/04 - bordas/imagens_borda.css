@@ -5,3 +5,7 @@ div {
     border: 30px solid;
     background-color: black;
 }
+
+#exemplo-1{
+    border-image-source: url('starpng.webp');
+}
