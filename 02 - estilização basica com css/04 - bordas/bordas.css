@@ -1,8 +1,25 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(171, 30, 164);
+    margin-bottom: 30px;
+}
+
 .border{
-    width: 300px;
-    height: 300px;
-    background-color: blanchedalmond;
+    
     border-width: 6px;
     border-style: solid;
     border-color: red purple yellow green;
+}
+
+.border-radius{
+    border-radius: 50%;
+    border: 5px solid goldenrod;
+
+}
+
+.border-radius-2{
+    border-radius: 20px 10px 30px 50px;
+    border-color: blue;
+
 }
