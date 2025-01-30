@@ -9,6 +9,10 @@ div {
 #exemplo-1{
     border-image-source: url('Star.png');
     border-image-repeat: repeat;
-    border-image-slice: 1;
+    border-image-slice: 256;
 
+}
+
+#width {
+    border-image-source: linear-gradient(red, blue, orange);
 }
