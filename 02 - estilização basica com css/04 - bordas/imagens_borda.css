@@ -15,5 +15,6 @@ div {
 
 #width {
     border-image-source: linear-gradient(red, blue, orange);
+    border-image-slice: 100;
 }
 
