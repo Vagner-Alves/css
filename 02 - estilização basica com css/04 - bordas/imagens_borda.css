@@ -7,9 +7,9 @@ div {
 }
 
 #exemplo-1{
-    border-image-source: url('colorful-star.png');
+    border-image-source: url('Star.png');
     border-image-repeat: repeat;
-    border-image-slice: 1000 fill;
+    border-image-width: 10px 20px 30px 40px;
 
 }
 
