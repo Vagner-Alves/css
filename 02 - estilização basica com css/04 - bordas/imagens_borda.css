@@ -2,56 +2,6 @@ div {
     width: 200px;
     height: 200px;
     margin-bottom: 20px;
+    border: 30px solid;
     background-color: black;
 }
-
-/* Exemplo 1: Basic border-image */
-#exemplo-1 {
-   border: 30px solid;
-   border-image-source: url('starpng.webp');
-   border-image-slice: 30;
-   border-image-width: 30px;
-   border-image-outset: 0;
-   border-image-repeat: stretch;
-}
-
-/* Exemplo 2: Different border-image widths */
-#width {
-   border: 30px solid;
-   border-image-source: url('starpng.webp');
-   border-image-slice: 30;
-   border-image-width: 30px 25px 20px 15px;
-   border-image-outset: 0;
-   border-image-repeat: stretch;
-}
-
-/* Exemplo 3: Repeating border image */
-#repeat {
-   border: 30px solid;
-   border-image-source: url('starpng.webp');
-   border-image-slice: 30;
-   border-image-width: 30px;
-   border-image-outset: 0;
-   border-image-repeat: repeat;
-}
-
-/* Exemplo 4: Border-image outset */
-#outset {
-   border: 30px solid;
-   border-image-source: url('starpng.webp');
-   border-image-slice: 30;
-   border-image-width: 30px;
-   border-image-outset: 15px;
-   border-image-repeat: stretch;
-}
-
-/* Exemplo 5: Border-image slice */
-#slice {
-   border: 30px solid;
-   border-image-source: url('starpng.webp');
-   border-image-slice: 50 30;
-   border-image-width: 30px;
-   border-image-outset: 0;
-   border-image-repeat: stretch;
-}
-
