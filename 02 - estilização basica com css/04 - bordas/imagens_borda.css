@@ -10,6 +10,7 @@ div {
     border-image-source: url('Star.png');
     border-image-repeat: round;
     border-image-slice: 169;
+    border-image-width: 20%;
 
 }
 
