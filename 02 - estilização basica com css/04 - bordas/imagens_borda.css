@@ -8,8 +8,8 @@ div {
 
 #exemplo-1{
     border-image-source: url('Star.png');
-    border-image-repeat: repeat;
-    border-image-width: 10px 20px 30px 40px;
+    border-image-repeat: round;
+    border-image-slice: 169;
 
 }
 
