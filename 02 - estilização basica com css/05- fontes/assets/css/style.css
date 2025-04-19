@@ -9,6 +9,11 @@
     src: url("../fonts/Roboto-Bold.ttf");
 }
 
+@font-face {
+    font-family: japones;
+    src: url("../fonts/NotoSansJP-Medium.ttf");
+}
+
 h1,p{
     font-family: DancingScript;
     font-size: larger;
@@ -16,4 +21,8 @@ h1,p{
 
 ul{
     font-family: batataDoce;
+}
+
+.asia{
+    font-family: japones;
 }
