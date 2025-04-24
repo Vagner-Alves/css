@@ -4,6 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>espaço branco</title>
+    <style>
+        .exemplo{
+            width: 200px;
+            background-color: chartreuse;
+        }
+        span{
+            background-color: seagreen;
+            color: white;
+        }
+        #nowrap{
+            white-space: nowrap;
+        }
+        #pre{
+            white-space: pre;
+        }
+        #pre-line{
+            white-space: pre-line;
+        }
+        #pre-wrap{
+            white-space: pre-wrap;
+        }
+    </style>
 </head>
 <body>
     <h1>Propriedade <code>white-space</code></h1>
@@ -15,7 +37,31 @@
             eligendi veniam sapiente maxime sunt quas, qui adipisci veritatis sit sint libero.
         </span>
     </p>
+    <code>white-space: nowrap;</code>
     <p id="nowrap" class="exemplo">
+        <span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit tenetur repellat quod, esse rem voluptates recusandae ipsam vero, 
+            eligendi veniam sapiente maxime sunt quas, qui adipisci veritatis sit sint libero.
+        </span>
+    </p>
+    <code>white-space: pre;</code>
+    <p id="pre" class="exemplo">
+        <span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit tenetur repellat quod, esse rem voluptates recusandae ipsam vero, 
+            eligendi veniam sapiente maxime sunt quas, qui adipisci veritatis sit sint libero.
+        </span>
+    </p>
+    <code>white-space: pre-line;</code>
+    <p id="pre-line" class="exemplo">
+        <span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Velit tenetur repellat quod, 
+            esse rem voluptates recusandae ipsam vero, 
+            eligendi veniam sapiente maxime sunt quas, qui adipisci veritatis sit sint libero.
+        </span>
+    </p>
+    <code>white-space: pre-wrap;</code>
+    <p id="pre-wrap" class="exemplo">
         <span>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit tenetur repellat quod, esse rem voluptates recusandae ipsam vero, 
             eligendi veniam sapiente maxime sunt quas, qui adipisci veritatis sit sint libero.
