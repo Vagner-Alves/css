@@ -19,6 +19,15 @@
         #break-word{
             word-wrap: break-word;
         }
+        #word-break{
+            word-break: normal;
+        }
+        #break-all{
+            word-break: break-all;
+        }
+        #keep-all{
+            word-break: keep-all;
+        }
 
     </style>
 </head>
@@ -50,7 +59,7 @@
         <p>define quando nosso texto deve ter uma quebra de linha</p>
         
         <code>word-break: normal;</code>
-        <p id="normal" class="exemplo-2">
+        <p id="word-break" class="exemplo-2">
             <span>
                 CURSO DE CSS 
             CURSODECSSTUDOJUNTO
@@ -59,18 +68,20 @@
             
         </p>
         <code>word-break: break-all;</code>
-        <p id="word-break" class="exemplo-2">
+        <p id="break-all" class="exemplo-2">
             <span>
                 CURSO DE CSS 
             CURSODECSSTUDOJUNTO
             CURSO DE CSS
             </span>
+        </p>
             <code>word-break: keep-all;</code>
             <p id="keep-all" class="exemplo-2">
                 <span>
                     CURSO DE CSS 
                 CURSODECSSTUDOJUNTO
                 CURSO DE CSS
+                Tシャツを3枚購入しました
                 </span>
     
     </p>
