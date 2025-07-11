@@ -5,14 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porcentagem</title>
     <style>
+        #exemplo-pixel{
+            font-size: 30px;
+            background-color: lightblue;
+            width: 300px;
+        }
+        #exemplo-porcentagem{
+            font-size: 30px;
+            background-color: lightpink;
+            width: 50%;
 
+        }
     </style>
 </head>
 <body>
     <h1>Porcentagem</h1>
     <p>pixel vs porcentagem </p>
 
-    <div id="exemplo-1">
+    <div id="exemplo-pixel">
         width: 300px;
     </div>
 
@@ -20,6 +30,15 @@
         width: 50%;
     </div>
 
-    <br><br><br><br><br>
+    <br><br><br><hr><br><br>
+
+    <div id="elemento-pai">
+        <div class="exemplo-pixel">
+            width: 300px;
+        </div>
+        <div class="exemplo-porcentagem">
+            width: 50%;
+        </div>
+    </div>
 </body>
 </html>
