@@ -27,6 +27,10 @@ b{
 .menu {
      background-color: rgb(173, 165, 226);
 }
+
+a{
+    color: black;
+}
 .menu ul li{
     display: inline-block;
     padding: 20px 40px;

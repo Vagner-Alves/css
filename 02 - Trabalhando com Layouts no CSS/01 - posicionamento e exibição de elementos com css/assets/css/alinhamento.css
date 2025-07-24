@@ -1,0 +1,22 @@
+img{
+    width: 50;
+    height: 50px;
+}
+
+span{
+    background-color: rgb(70, 198, 217);
+}
+
+.item-01 {
+    height: 30px;
+    vertical-align: middle;
+
+}
+
+.item-02 {
+    text-align:center ;
+}
+.container{
+    border: 2px solid blue;
+    text-align: center;
+}
