@@ -1,3 +1,29 @@
-exemplo{
+body{
+    background-color: rgb(244, 236, 226);
+}
+.exemplo{
     display: block;
+}
+
+.inline{
+    display: inline;
+    background-color: aquamarine;
+}
+
+b{
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.inline-block{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin-bottom: 20px;
+}
+
+.menu ul li{
+    display: inline-block;
 }
