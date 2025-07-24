@@ -24,6 +24,10 @@ b{
     margin-bottom: 20px;
 }
 
+.menu {
+     background-color: rgb(173, 165, 226);
+}
 .menu ul li{
     display: inline-block;
+    padding: 20px 40px;
 }
