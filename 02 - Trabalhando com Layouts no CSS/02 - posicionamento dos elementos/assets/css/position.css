@@ -2,13 +2,18 @@ body{
     font-family: sans-serif;
     height: 200vh;
 }
-.exemplo-inline {
- display: inline-block;
+
+div{
  width: 150px;
  height: 150px;
  margin: 10px;
  padding: 10px;
  border-radius: 4px;
+}
+
+.exemplo-inline {
+ display: inline-block;
+
 }
 
 #elemento-1{
