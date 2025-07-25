@@ -1,0 +1,40 @@
+body{
+    font-family: sans-serif;
+    height: 200vh;
+}
+.exemplo-inline {
+ display: inline-block;
+ width: 150px;
+ height: 150px;
+ margin: 10px;
+ padding: 10px;
+ border-radius: 4px;
+}
+
+#elemento-1{
+    background-color: blueviolet;
+    border: 1px solid blue;
+}
+
+#elemento-2{
+    background-color: crimson;
+    border: 1px solid red;
+}
+
+#elemento-3{
+    background-color: darkolivegreen;
+    border: 1px solid  greenyellow;
+}
+
+#elemento-4{
+    background-color: aliceblue;
+}
+
+#elemento-5{
+    background-color: antiquewhite;
+}
+
+#elemento-6{
+    background-color: burlywood;
+}
+
