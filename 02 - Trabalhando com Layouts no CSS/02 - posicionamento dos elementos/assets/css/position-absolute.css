@@ -1,6 +1,7 @@
 body{
     font-family: sans-serif;
     height: 200vh;
+    background-color: bisque;
 }
 
 div{
@@ -35,3 +36,10 @@ div{
     top: 40px ;
 }
 
+
+#elemento-4{
+    background-color: cadetblue;
+    border: 1px dotted blue;
+    position: sticky;
+    top: 20px;
+}
