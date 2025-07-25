@@ -1,0 +1,53 @@
+body{
+    font-family: sans-serif;
+    height: 200vh;
+}
+
+div{
+ width: 150px;
+ height: 150px;
+ margin: 10px;
+ padding: 10px;
+ border-radius: 4px;
+}
+
+.exemplo-inline {
+ display: inline-block;
+
+}
+
+#elemento-1{
+    background-color: blueviolet;
+    border: 1px solid blue;
+    position: relative;
+    left: 30px;
+}
+
+#elemento-2{
+    background-color: crimson;
+    border: 1px solid red;
+}
+
+#elemento-3{
+    background-color: darkolivegreen;
+    border: 1px solid  greenyellow;
+    position: relative;
+    right: 80px;
+}
+
+#elemento-4{
+    background-color: aliceblue;
+    position:relative;
+    top: 50px;
+}
+
+#elemento-5{
+    background-color: antiquewhite;
+}
+
+#elemento-6{
+    background-color: burlywood;
+    position: relative;
+    bottom: 40px;
+}
+
