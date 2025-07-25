@@ -19,6 +19,8 @@ div{
 #elemento-1{
     background-color: blueviolet;
     border: 1px solid blue;
+    position: relative;
+    left: 30px;
 }
 
 #elemento-2{
@@ -29,6 +31,8 @@ div{
 #elemento-3{
     background-color: darkolivegreen;
     border: 1px solid  greenyellow;
+    position: relative;
+    right: 80px;
 }
 
 #elemento-4{
