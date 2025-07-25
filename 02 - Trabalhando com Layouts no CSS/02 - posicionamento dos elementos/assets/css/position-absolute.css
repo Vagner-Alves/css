@@ -31,23 +31,7 @@ div{
 #elemento-3{
     background-color: darkolivegreen;
     border: 1px solid  greenyellow;
-    position: relative;
-    right: 80px;
-}
-
-#elemento-4{
-    background-color: aliceblue;
-    position:relative;
-    top: 50px;
-}
-
-#elemento-5{
-    background-color: antiquewhite;
-}
-
-#elemento-6{
-    background-color: burlywood;
-    position: relative;
-    bottom: 40px;
+    position: absolute;
+    top: 40px ;
 }
 
