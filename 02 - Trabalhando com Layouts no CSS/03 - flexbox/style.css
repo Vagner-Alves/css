@@ -36,6 +36,11 @@
     flex-direction: row-reverse ;
 }
 
+.container-2{
+    display: flex;
+    gap: 20px;
+}
+
 .bloco{
     width: 80px;
     height: 80px;
