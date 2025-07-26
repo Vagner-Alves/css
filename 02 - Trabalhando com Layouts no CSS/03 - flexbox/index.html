@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eixos do Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Eixos do Flexbox</h1>
+    <div class="container" id="container-01">
+        <div class="item">item 1</div>
+        <div class="item">item 2</div>
+        <div class="item">item 3</div>
+        <div class="item">item 4</div>
+    </div>
+
+    <div class="container" id="container-02">
+        <div class="item">item 1</div>
+        <div class="item">item 2</div>
+        <div class="item">item 3</div>
+        <div class="item">item 4</div>
+    </div>
+
+    <h2>Propriedades do Flex-direction</h2>
+    <p>O flex-direction tem as propriedades, 
+        <i>flex-direction: row; flex-direction:row-reverse; flex-direction: column e flex-direction: column-reverse</i></p>
+        <p>A propriedade flex-direction vai levar em consideração o estilo de escrita no qual estamos trabalhando no projeto
+            para definir se, <span style="color: red;"><b><i>flex-direction:row;</i></b></span>, por exemplo, deve ser da esquerda
+            para direita, ou da direita para a esquerda.
+        </p>
+        
+        <span><b>Start</b></span>
+        <div class="bloco-exemplo" id="bloco-exemplo-1">
+            <div class="bloco" id="bloco-01">A</div>
+            <div class="bloco" id="bloco-02">B</div>
+            <div class="bloco" id="bloco-03">C</div>
+        </div>
+        <div class="ocidental">
+            Ocidental (LTR)
+        </div>
+         <span><b>End</b></span>
+        <br>
+        <div class="bloco-exemplo" id="bloco-exemplo-2">
+            <div class="bloco" id="bloco-01">A</div>
+            <div class="bloco" id="bloco-02">B</div>
+            <div class="bloco" id="bloco-03">C</div>
+        </div>
+         <div class="oriental">
+            Oriental (RTL)
+        </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+
+
+.container{
+    background: orchid;
+    padding: 20px;
+    margin: 20px;
+
+    display: flex;
+}
+
+.item{
+    background-color: olivedrab;
+    margin: 10px;
+}
+
+#container-01{
+    flex-direction:column;
+}
+
+.bloco-exemplo{
+    width: 400px;
+    height: 100px;
+    border: 2px dotted black;
+    display: flex;
+    font-family: serif;
+    font-size: 40px ;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+
+#bloco-exemplo-1{
+    flex-direction: row;
+}
+#bloco-exemplo-2{
+    flex-direction: row-reverse ;
+}
+
+.bloco{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    background: blue;
+    
+}
+
+.ocidental,  .oriental{
+    width: 100px;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    border: 10px;
+}
+
+
