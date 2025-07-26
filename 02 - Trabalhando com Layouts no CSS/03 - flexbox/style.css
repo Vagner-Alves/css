@@ -59,3 +59,20 @@
 }
 
 
+.wrap{
+    background: palegreen;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container-03{
+    flex-direction: column;
+    height: 300px;
+}
+
+#container-row{
+    flex-direction: row;
+}
