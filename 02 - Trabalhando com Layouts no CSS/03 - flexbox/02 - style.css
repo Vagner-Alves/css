@@ -1,8 +1,10 @@
 .container {
     background: palegoldenrod;
     padding: 20px;
+    display: flex;
 }
 
 .item{
     margin: 20px;
+    background-color: olive;
 }
