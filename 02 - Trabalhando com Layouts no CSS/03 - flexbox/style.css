@@ -58,14 +58,15 @@
     border: 10px;
 }
 
-
 .wrap{
     background: palegreen;
     padding: 20px;
     margin: 20px;
     width: 300px;
     display: flex;
-    flex-wrap: wrap;
+
+    justify-content: space-around;
+  
 }
 
 #container-03{
