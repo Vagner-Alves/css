@@ -1,15 +1,24 @@
-.wrap{
-    background: lightcyan;
-    width: 400px;
-    margin: 20px;
+.container{
+    background:lightcyan;
     padding: 20px;
-    display: flex;
-    justify-content: space-around;
-}    
+    margin: 20px;
+    width: 300px;
 
-.item{
-    background: orchid;
-    margin: 10px;
-    
+    display: flex;
+    justify-content: space-between;
+
 }
 
+.item{
+    background-color: bisque;
+    padding: 15px;
+}
+
+#container-1{
+    flex-flow: row wrap;
+}
+
+#container-2{
+    height: 300px;
+    flex-flow: column wrap-reverse;
+}
